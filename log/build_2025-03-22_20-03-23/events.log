@@ -1,0 +1,591 @@
+[0.000000] (-) TimerEvent: {}
+[0.000270] (arm_state) JobQueued: {'identifier': 'arm_state', 'dependencies': OrderedDict()}
+[0.000335] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.001556] (arm_state) JobStarted: {'identifier': 'arm_state'}
+[0.012471] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.026428] (arm_state) JobProgress: {'identifier': 'arm_state', 'progress': 'cmake'}
+[0.030327] (arm_state) Command: {'cmd': ['/usr/bin/cmake', '/home/user/arm_ros2/src/arm_state', '-DCMAKE_INSTALL_PREFIX=/home/user/arm_ros2/install/arm_state'], 'cwd': '/home/user/arm_ros2/build/arm_state', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/터미네이터/2680-1-user-15ZD90RU-GX56K_TIME77879', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'user', 'LC_TIME': 'ko_KR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/usr/local/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2308', 'SYSTEMD_EXEC_PID': '2680', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3890', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/user/arm_ros2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'JOURNAL_STREAM': '9:22013', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-15ZD90RU-GX56K:@/tmp/.ICE-unix/2642,unix/user-15ZD90RU-GX56K:/tmp/.ICE-unix/2642', 'INVOCATION_ID': '58dbff9ac66e497780ac8d6e8af023e6', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '13', 'AMENT_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:76b296e4-47fa-4909-9c0e-257afef4f9e3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/arm_ros2/build/arm_state', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/jazzy/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.040638] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.045385] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/user/arm_ros2/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/user/arm_ros2/install/robot_description'], 'cwd': '/home/user/arm_ros2/build/robot_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/터미네이터/2680-1-user-15ZD90RU-GX56K_TIME77879', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'user', 'LC_TIME': 'ko_KR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/usr/local/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2308', 'SYSTEMD_EXEC_PID': '2680', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3890', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/user/arm_ros2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'JOURNAL_STREAM': '9:22013', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-15ZD90RU-GX56K:@/tmp/.ICE-unix/2642,unix/user-15ZD90RU-GX56K:/tmp/.ICE-unix/2642', 'INVOCATION_ID': '58dbff9ac66e497780ac8d6e8af023e6', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '13', 'AMENT_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:76b296e4-47fa-4909-9c0e-257afef4f9e3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/arm_ros2/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/jazzy/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099010] (-) TimerEvent: {}
+[0.199518] (-) TimerEvent: {}
+[0.249892] (arm_state) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.257675] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.299770] (-) TimerEvent: {}
+[0.400327] (-) TimerEvent: {}
+[0.460312] (arm_state) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.500709] (-) TimerEvent: {}
+[0.528623] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.530347] (arm_state) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601015] (-) TimerEvent: {}
+[0.620186] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701334] (-) TimerEvent: {}
+[0.802472] (-) TimerEvent: {}
+[0.817015] (arm_state) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.838112] (arm_state) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.839647] (arm_state) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.840896] (arm_state) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.874484] (arm_state) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902846] (-) TimerEvent: {}
+[0.905062] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.924202] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.925504] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.926645] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.962986] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.003221] (-) TimerEvent: {}
+[1.104401] (-) TimerEvent: {}
+[1.205498] (-) TimerEvent: {}
+[1.287253] (arm_state) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.288324] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.305883] (-) TimerEvent: {}
+[1.307276] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.308307] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.309435] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.316219] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.380440] (arm_state) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.382759] (arm_state) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.386889] (arm_state) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.406239] (-) TimerEvent: {}
+[1.455872] (arm_state) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.506656] (-) TimerEvent: {}
+[1.607841] (-) TimerEvent: {}
+[1.709113] (-) TimerEvent: {}
+[1.729298] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.809452] (-) TimerEvent: {}
+[1.910631] (-) TimerEvent: {}
+[1.914308] (arm_state) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.971531] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.010866] (-) TimerEvent: {}
+[2.112101] (-) TimerEvent: {}
+[2.150642] (arm_state) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.194115] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.195214] (robot_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.196193] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.197278] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.200402] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.203548] (robot_description) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.208216] (robot_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.211216] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/user/arm_ros2/build/robot_description\n'}
+[2.212281] (-) TimerEvent: {}
+[2.225364] (robot_description) CommandEnded: {'returncode': 0}
+[2.230708] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[2.232069] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/arm_ros2/build/robot_description', '--', '-j12', '-l12'], 'cwd': '/home/user/arm_ros2/build/robot_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/터미네이터/2680-1-user-15ZD90RU-GX56K_TIME77879', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'user', 'LC_TIME': 'ko_KR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/usr/local/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2308', 'SYSTEMD_EXEC_PID': '2680', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3890', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/user/arm_ros2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'JOURNAL_STREAM': '9:22013', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-15ZD90RU-GX56K:@/tmp/.ICE-unix/2642,unix/user-15ZD90RU-GX56K:/tmp/.ICE-unix/2642', 'INVOCATION_ID': '58dbff9ac66e497780ac8d6e8af023e6', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '13', 'AMENT_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:76b296e4-47fa-4909-9c0e-257afef4f9e3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/arm_ros2/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/jazzy/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.312665] (-) TimerEvent: {}
+[2.316570] (arm_state) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.360663] (robot_description) CommandEnded: {'returncode': 0}
+[2.364708] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[2.393284] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/arm_ros2/build/robot_description'], 'cwd': '/home/user/arm_ros2/build/robot_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/터미네이터/2680-1-user-15ZD90RU-GX56K_TIME77879', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'user', 'LC_TIME': 'ko_KR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/usr/local/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2308', 'SYSTEMD_EXEC_PID': '2680', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3890', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/user/arm_ros2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'JOURNAL_STREAM': '9:22013', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-15ZD90RU-GX56K:@/tmp/.ICE-unix/2642,unix/user-15ZD90RU-GX56K:/tmp/.ICE-unix/2642', 'INVOCATION_ID': '58dbff9ac66e497780ac8d6e8af023e6', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '13', 'AMENT_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:76b296e4-47fa-4909-9c0e-257afef4f9e3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/arm_ros2/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/jazzy/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.413122] (-) TimerEvent: {}
+[2.415099] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.417132] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf\n'}
+[2.418705] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/arm.urdf\n'}
+[2.420008] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/robot_core.xacro\n'}
+[2.421561] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/camera.xacro\n'}
+[2.422414] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/robot.urdf.xacro\n'}
+[2.423125] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/gazebo_control.xacro\n'}
+[2.423766] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/lidar.xacro\n'}
+[2.424475] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/rviz\n'}
+[2.425473] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/launch\n'}
+[2.426153] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/ready.py\n'}
+[2.427037] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/launch_sim2.launch.py\n'}
+[2.428884] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/launch_sim.launch.py\n'}
+[2.432712] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/upload.launch.py\n'}
+[2.433382] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/map_building.launch.py\n'}
+[2.433921] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[2.434087] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/config\n'}
+[2.434251] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/config/gz_bridge.yaml\n'}
+[2.434396] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/config/rosgraph.png\n'}
+[2.434543] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/config/mapper_params.yaml\n'}
+[2.434691] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[2.434841] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[2.435408] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[2.435682] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[2.435865] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[2.436081] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/environment/path.sh\n'}
+[2.436247] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[2.436405] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/local_setup.bash\n'}
+[2.436831] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/local_setup.sh\n'}
+[2.437026] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[2.437174] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[2.437326] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/package.dsv\n'}
+[2.437478] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[2.437628] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[2.437771] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[2.437943] (robot_description) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/package.xml\n'}
+[2.438880] (robot_description) CommandEnded: {'returncode': 0}
+[2.446096] (arm_state) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.477966] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[2.502530] (arm_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.513441] (-) TimerEvent: {}
+[2.542183] (arm_state) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.613790] (-) TimerEvent: {}
+[2.712077] (arm_state) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.714166] (-) TimerEvent: {}
+[2.718136] (arm_state) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.814518] (-) TimerEvent: {}
+[2.915588] (-) TimerEvent: {}
+[3.016683] (-) TimerEvent: {}
+[3.074285] (arm_state) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.116869] (-) TimerEvent: {}
+[3.141035] (arm_state) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.208161] (arm_state) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.217063] (-) TimerEvent: {}
+[3.317674] (-) TimerEvent: {}
+[3.380503] (arm_state) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[3.414375] (arm_state) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[3.418068] (-) TimerEvent: {}
+[3.519198] (-) TimerEvent: {}
+[3.547114] (arm_state) StdoutLine: {'line': b'-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[3.602380] (arm_state) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.619424] (-) TimerEvent: {}
+[3.720584] (-) TimerEvent: {}
+[3.821772] (-) TimerEvent: {}
+[3.911263] (arm_state) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.912797] (arm_state) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.913614] (arm_state) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.914735] (arm_state) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.915978] (arm_state) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.916703] (arm_state) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.917736] (arm_state) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.920032] (arm_state) StdoutLine: {'line': b'-- Configuring done (3.9s)\n'}
+[3.922163] (-) TimerEvent: {}
+[3.989144] (arm_state) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.013443] (arm_state) StdoutLine: {'line': b'-- Build files have been written to: /home/user/arm_ros2/build/arm_state\n'}
+[4.022478] (-) TimerEvent: {}
+[4.041865] (arm_state) CommandEnded: {'returncode': 0}
+[4.045689] (arm_state) JobProgress: {'identifier': 'arm_state', 'progress': 'build'}
+[4.049611] (arm_state) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/arm_ros2/build/arm_state', '--', '-j12', '-l12'], 'cwd': '/home/user/arm_ros2/build/arm_state', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/터미네이터/2680-1-user-15ZD90RU-GX56K_TIME77879', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'user', 'LC_TIME': 'ko_KR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/usr/local/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2308', 'SYSTEMD_EXEC_PID': '2680', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3890', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/user/arm_ros2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'JOURNAL_STREAM': '9:22013', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-15ZD90RU-GX56K:@/tmp/.ICE-unix/2642,unix/user-15ZD90RU-GX56K:/tmp/.ICE-unix/2642', 'INVOCATION_ID': '58dbff9ac66e497780ac8d6e8af023e6', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '13', 'AMENT_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:76b296e4-47fa-4909-9c0e-257afef4f9e3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/arm_ros2/build/arm_state', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/jazzy/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[4.122843] (-) TimerEvent: {}
+[4.224048] (-) TimerEvent: {}
+[4.269553] (arm_state) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/ard_pubser.dir/src/robot_all.cpp.o\x1b[0m\n'}
+[4.290765] (arm_state) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/start.dir/src/robot_state_start_client.cpp.o\x1b[0m\n'}
+[4.307544] (arm_state) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/stop.dir/src/robot_state_stop.cpp.o\x1b[0m\n'}
+[4.309616] (arm_state) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/robot_move_server.cpp.o\x1b[0m\n'}
+[4.310788] (arm_state) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/com.dir/src/robot_state_pub.cpp.o\x1b[0m\n'}
+[4.324238] (-) TimerEvent: {}
+[4.347882] (arm_state) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/arduino.dir/src/robot_state_sub.cpp.o\x1b[0m\n'}
+[4.358327] (arm_state) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/robot_move_client.cpp.o\x1b[0m\n'}
+[4.359549] (arm_state) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/save.dir/src/robot_state_save_client.cpp.o\x1b[0m\n'}
+[4.424529] (-) TimerEvent: {}
+[4.525674] (-) TimerEvent: {}
+[4.626815] (-) TimerEvent: {}
+[4.727890] (-) TimerEvent: {}
+[4.828548] (-) TimerEvent: {}
+[4.929174] (-) TimerEvent: {}
+[5.029771] (-) TimerEvent: {}
+[5.130555] (-) TimerEvent: {}
+[5.232243] (-) TimerEvent: {}
+[5.333400] (-) TimerEvent: {}
+[5.434633] (-) TimerEvent: {}
+[5.535838] (-) TimerEvent: {}
+[5.637132] (-) TimerEvent: {}
+[5.738282] (-) TimerEvent: {}
+[5.839501] (-) TimerEvent: {}
+[5.940630] (-) TimerEvent: {}
+[6.041244] (-) TimerEvent: {}
+[6.141937] (-) TimerEvent: {}
+[6.242779] (-) TimerEvent: {}
+[6.344123] (-) TimerEvent: {}
+[6.445331] (-) TimerEvent: {}
+[6.546545] (-) TimerEvent: {}
+[6.647847] (-) TimerEvent: {}
+[6.749091] (-) TimerEvent: {}
+[6.850413] (-) TimerEvent: {}
+[6.951715] (-) TimerEvent: {}
+[7.053100] (-) TimerEvent: {}
+[7.154316] (-) TimerEvent: {}
+[7.255679] (-) TimerEvent: {}
+[7.357092] (-) TimerEvent: {}
+[7.458372] (-) TimerEvent: {}
+[7.559816] (-) TimerEvent: {}
+[7.661206] (-) TimerEvent: {}
+[7.762523] (-) TimerEvent: {}
+[7.863816] (-) TimerEvent: {}
+[7.965169] (-) TimerEvent: {}
+[8.066497] (-) TimerEvent: {}
+[8.167837] (-) TimerEvent: {}
+[8.269170] (-) TimerEvent: {}
+[8.370555] (-) TimerEvent: {}
+[8.471991] (-) TimerEvent: {}
+[8.573293] (-) TimerEvent: {}
+[8.674658] (-) TimerEvent: {}
+[8.776025] (-) TimerEvent: {}
+[8.877418] (-) TimerEvent: {}
+[8.978885] (-) TimerEvent: {}
+[9.080173] (-) TimerEvent: {}
+[9.181407] (-) TimerEvent: {}
+[9.282774] (-) TimerEvent: {}
+[9.384153] (-) TimerEvent: {}
+[9.485333] (-) TimerEvent: {}
+[9.586636] (-) TimerEvent: {}
+[9.688025] (-) TimerEvent: {}
+[9.789282] (-) TimerEvent: {}
+[9.890632] (-) TimerEvent: {}
+[9.992083] (-) TimerEvent: {}
+[10.093525] (-) TimerEvent: {}
+[10.194809] (-) TimerEvent: {}
+[10.296209] (-) TimerEvent: {}
+[10.397494] (-) TimerEvent: {}
+[10.498879] (-) TimerEvent: {}
+[10.579346] (arm_state) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[10.580894] (arm_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[10.581892] (arm_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[10.582790] (arm_state) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_move_client.cpp:2\x1b[m\x1b[K:\n'}
+[10.583667] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_move_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.584501] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_move_client.cpp:41:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.585445] (arm_state) StderrLine: {'line': b'   41 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"motor %d \xea\xb0\x80 %d\xea\xb0\x81\xeb\x8f\x84\xeb\xa7\x8c\xed\x81\xbc \xec\x9b\x80\xec\xa7\x81\xec\x98\x80\xeb\x8b\xa4."\x1b[m\x1b[K, \x1b[32m\x1b[Krequest->a\x1b[m\x1b[K , request ->b);\n'}
+[10.586429] (arm_state) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.587353] (arm_state) StderrLine: {'line': b'      |                                                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[10.588114] (arm_state) StderrLine: {'line': b'      |                                                                                            \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}\x1b[m\x1b[K\n'}
+[10.588883] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_move_client.cpp:41:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[10.589648] (arm_state) StderrLine: {'line': b'   41 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "motor \x1b[01;36m\x1b[K%d\x1b[m\x1b[K \xea\xb0\x80 %d\xea\xb0\x81\xeb\x8f\x84\xeb\xa7\x8c\xed\x81\xbc \xec\x9b\x80\xec\xa7\x81\xec\x98\x80\xeb\x8b\xa4.", request->a , request ->b);\n'}
+[10.590368] (arm_state) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[10.591004] (arm_state) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[10.591689] (arm_state) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[10.592359] (arm_state) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[10.592976] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_move_client.cpp:41:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.593684] (arm_state) StderrLine: {'line': b'   41 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"motor %d \xea\xb0\x80 %d\xea\xb0\x81\xeb\x8f\x84\xeb\xa7\x8c\xed\x81\xbc \xec\x9b\x80\xec\xa7\x81\xec\x98\x80\xeb\x8b\xa4."\x1b[m\x1b[K, request->a , \x1b[32m\x1b[Krequest ->b\x1b[m\x1b[K);\n'}
+[10.594393] (arm_state) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K               \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.595084] (arm_state) StderrLine: {'line': b'      |                                                                                                          \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[10.595733] (arm_state) StderrLine: {'line': b'      |                                                                                                          \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}\x1b[m\x1b[K\n'}
+[10.596405] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_move_client.cpp:41:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[10.597060] (arm_state) StderrLine: {'line': b'   41 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "motor %d \xea\xb0\x80 \x1b[01;36m\x1b[K%d\x1b[m\x1b[K\xea\xb0\x81\xeb\x8f\x84\xeb\xa7\x8c\xed\x81\xbc \xec\x9b\x80\xec\xa7\x81\xec\x98\x80\xeb\x8b\xa4.", request->a , request ->b);\n'}
+[10.597749] (arm_state) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[10.598453] (arm_state) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[10.599122] (-) TimerEvent: {}
+[10.599797] (arm_state) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[10.600587] (arm_state) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[10.699529] (-) TimerEvent: {}
+[10.800828] (-) TimerEvent: {}
+[10.902134] (-) TimerEvent: {}
+[11.003280] (-) TimerEvent: {}
+[11.104669] (-) TimerEvent: {}
+[11.206050] (-) TimerEvent: {}
+[11.307264] (-) TimerEvent: {}
+[11.408630] (-) TimerEvent: {}
+[11.510032] (-) TimerEvent: {}
+[11.611283] (-) TimerEvent: {}
+[11.713234] (-) TimerEvent: {}
+[11.814563] (-) TimerEvent: {}
+[11.915878] (-) TimerEvent: {}
+[12.017270] (-) TimerEvent: {}
+[12.118686] (-) TimerEvent: {}
+[12.220104] (-) TimerEvent: {}
+[12.321326] (-) TimerEvent: {}
+[12.422747] (-) TimerEvent: {}
+[12.524152] (-) TimerEvent: {}
+[12.625404] (-) TimerEvent: {}
+[12.726738] (-) TimerEvent: {}
+[12.828128] (-) TimerEvent: {}
+[12.929470] (-) TimerEvent: {}
+[13.030900] (-) TimerEvent: {}
+[13.132149] (-) TimerEvent: {}
+[13.233431] (-) TimerEvent: {}
+[13.334738] (-) TimerEvent: {}
+[13.436083] (-) TimerEvent: {}
+[13.537357] (-) TimerEvent: {}
+[13.638702] (-) TimerEvent: {}
+[13.739864] (-) TimerEvent: {}
+[13.841281] (-) TimerEvent: {}
+[13.942752] (-) TimerEvent: {}
+[14.044105] (-) TimerEvent: {}
+[14.145293] (-) TimerEvent: {}
+[14.246574] (-) TimerEvent: {}
+[14.347897] (-) TimerEvent: {}
+[14.449255] (-) TimerEvent: {}
+[14.550567] (-) TimerEvent: {}
+[14.651795] (-) TimerEvent: {}
+[14.753159] (-) TimerEvent: {}
+[14.854497] (-) TimerEvent: {}
+[14.955838] (-) TimerEvent: {}
+[15.017831] (arm_state) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[15.056263] (-) TimerEvent: {}
+[15.157693] (-) TimerEvent: {}
+[15.259240] (-) TimerEvent: {}
+[15.360743] (-) TimerEvent: {}
+[15.462209] (-) TimerEvent: {}
+[15.563688] (-) TimerEvent: {}
+[15.665205] (-) TimerEvent: {}
+[15.766490] (-) TimerEvent: {}
+[15.867821] (-) TimerEvent: {}
+[15.969198] (-) TimerEvent: {}
+[16.070547] (-) TimerEvent: {}
+[16.171867] (-) TimerEvent: {}
+[16.273240] (-) TimerEvent: {}
+[16.292765] (arm_state) StdoutLine: {'line': b'[ 56%] Built target client\n'}
+[16.373450] (-) TimerEvent: {}
+[16.474181] (-) TimerEvent: {}
+[16.574876] (-) TimerEvent: {}
+[16.675604] (-) TimerEvent: {}
+[16.776309] (-) TimerEvent: {}
+[16.877045] (-) TimerEvent: {}
+[16.977732] (-) TimerEvent: {}
+[17.078489] (-) TimerEvent: {}
+[17.179272] (-) TimerEvent: {}
+[17.280078] (-) TimerEvent: {}
+[17.381465] (-) TimerEvent: {}
+[17.482698] (-) TimerEvent: {}
+[17.534857] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_all.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K start\x1b[m\x1b[K(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >, boost::asio::serial_port&, std::mutex&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.536158] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_all.cpp:108:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.536891] (arm_state) StderrLine: {'line': b'  108 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request\x1b[m\x1b[K,\n'}
+[17.537580] (arm_state) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[17.538828] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_all.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K stop\x1b[m\x1b[K(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >, boost::asio::serial_port&, std::mutex&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.539941] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_all.cpp:129:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.540722] (arm_state) StderrLine: {'line': b'  129 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request\x1b[m\x1b[K,\n'}
+[17.541446] (arm_state) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[17.554884] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_all.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K publish_message\x1b[m\x1b[K(boost::asio::serial_port&, std::mutex&, rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr, rclcpp::Logger)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.556103] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_all.cpp:154:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kbytes_read\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.556844] (arm_state) StderrLine: {'line': b"  154 |         size_t \x1b[01;35m\x1b[Kbytes_read\x1b[m\x1b[K = read_until(serial, input_buffer, '\\n', ec);\n"}
+[17.557532] (arm_state) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.583123] (-) TimerEvent: {}
+[17.684341] (-) TimerEvent: {}
+[17.785573] (-) TimerEvent: {}
+[17.886816] (-) TimerEvent: {}
+[17.988176] (-) TimerEvent: {}
+[18.089427] (-) TimerEvent: {}
+[18.190650] (-) TimerEvent: {}
+[18.291859] (-) TimerEvent: {}
+[18.393150] (-) TimerEvent: {}
+[18.494429] (-) TimerEvent: {}
+[18.595704] (-) TimerEvent: {}
+[18.607397] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_state_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimplePublisherNode::\x1b[01;32m\x1b[Kpublish_message\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.608653] (arm_state) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/arm_ros2/src/arm_state/src/robot_state_pub.cpp:40:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kbytes_read\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.609465] (arm_state) StderrLine: {'line': b"   40 |             size_t \x1b[01;35m\x1b[Kbytes_read\x1b[m\x1b[K = read_until(serial_, input_buffer_, '\\n', ec);\n"}
+[18.610194] (arm_state) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.696145] (-) TimerEvent: {}
+[18.797237] (-) TimerEvent: {}
+[18.898457] (-) TimerEvent: {}
+[18.999675] (-) TimerEvent: {}
+[19.100960] (-) TimerEvent: {}
+[19.202171] (-) TimerEvent: {}
+[19.303362] (-) TimerEvent: {}
+[19.404590] (-) TimerEvent: {}
+[19.505851] (-) TimerEvent: {}
+[19.607156] (-) TimerEvent: {}
+[19.708404] (-) TimerEvent: {}
+[19.809764] (-) TimerEvent: {}
+[19.911103] (-) TimerEvent: {}
+[20.012409] (-) TimerEvent: {}
+[20.113715] (-) TimerEvent: {}
+[20.215085] (-) TimerEvent: {}
+[20.316262] (-) TimerEvent: {}
+[20.417549] (-) TimerEvent: {}
+[20.518889] (-) TimerEvent: {}
+[20.620158] (-) TimerEvent: {}
+[20.721460] (-) TimerEvent: {}
+[20.822820] (-) TimerEvent: {}
+[20.924176] (-) TimerEvent: {}
+[21.025329] (-) TimerEvent: {}
+[21.126598] (-) TimerEvent: {}
+[21.227863] (-) TimerEvent: {}
+[21.329204] (-) TimerEvent: {}
+[21.430459] (-) TimerEvent: {}
+[21.531698] (-) TimerEvent: {}
+[21.633043] (-) TimerEvent: {}
+[21.734160] (-) TimerEvent: {}
+[21.835543] (-) TimerEvent: {}
+[21.936823] (-) TimerEvent: {}
+[22.038107] (-) TimerEvent: {}
+[22.139303] (-) TimerEvent: {}
+[22.240487] (-) TimerEvent: {}
+[22.341773] (-) TimerEvent: {}
+[22.443163] (-) TimerEvent: {}
+[22.544431] (-) TimerEvent: {}
+[22.645794] (-) TimerEvent: {}
+[22.747184] (-) TimerEvent: {}
+[22.848473] (-) TimerEvent: {}
+[22.949736] (-) TimerEvent: {}
+[23.051047] (-) TimerEvent: {}
+[23.152220] (-) TimerEvent: {}
+[23.253365] (-) TimerEvent: {}
+[23.354600] (-) TimerEvent: {}
+[23.455827] (-) TimerEvent: {}
+[23.557144] (-) TimerEvent: {}
+[23.658306] (-) TimerEvent: {}
+[23.759564] (-) TimerEvent: {}
+[23.860855] (-) TimerEvent: {}
+[23.962157] (-) TimerEvent: {}
+[24.063412] (-) TimerEvent: {}
+[24.164641] (-) TimerEvent: {}
+[24.265897] (-) TimerEvent: {}
+[24.367201] (-) TimerEvent: {}
+[24.468507] (-) TimerEvent: {}
+[24.569720] (-) TimerEvent: {}
+[24.670980] (-) TimerEvent: {}
+[24.772154] (-) TimerEvent: {}
+[24.873324] (-) TimerEvent: {}
+[24.974439] (-) TimerEvent: {}
+[25.075640] (-) TimerEvent: {}
+[25.176880] (-) TimerEvent: {}
+[25.278093] (-) TimerEvent: {}
+[25.379255] (-) TimerEvent: {}
+[25.480579] (-) TimerEvent: {}
+[25.582031] (-) TimerEvent: {}
+[25.683179] (-) TimerEvent: {}
+[25.784260] (-) TimerEvent: {}
+[25.885469] (-) TimerEvent: {}
+[25.986745] (-) TimerEvent: {}
+[26.088050] (-) TimerEvent: {}
+[26.189189] (-) TimerEvent: {}
+[26.290394] (-) TimerEvent: {}
+[26.391618] (-) TimerEvent: {}
+[26.492880] (-) TimerEvent: {}
+[26.594291] (-) TimerEvent: {}
+[26.695522] (-) TimerEvent: {}
+[26.796650] (-) TimerEvent: {}
+[26.897839] (-) TimerEvent: {}
+[26.999117] (-) TimerEvent: {}
+[27.100243] (-) TimerEvent: {}
+[27.201449] (-) TimerEvent: {}
+[27.302658] (-) TimerEvent: {}
+[27.403878] (-) TimerEvent: {}
+[27.505142] (-) TimerEvent: {}
+[27.606285] (-) TimerEvent: {}
+[27.707544] (-) TimerEvent: {}
+[27.808834] (-) TimerEvent: {}
+[27.910108] (-) TimerEvent: {}
+[28.011270] (-) TimerEvent: {}
+[28.112507] (-) TimerEvent: {}
+[28.213710] (-) TimerEvent: {}
+[28.315040] (-) TimerEvent: {}
+[28.416233] (-) TimerEvent: {}
+[28.517445] (-) TimerEvent: {}
+[28.618631] (-) TimerEvent: {}
+[28.719859] (-) TimerEvent: {}
+[28.821027] (-) TimerEvent: {}
+[28.922170] (-) TimerEvent: {}
+[29.023251] (-) TimerEvent: {}
+[29.124452] (-) TimerEvent: {}
+[29.225674] (-) TimerEvent: {}
+[29.326971] (-) TimerEvent: {}
+[29.428173] (-) TimerEvent: {}
+[29.529268] (-) TimerEvent: {}
+[29.630474] (-) TimerEvent: {}
+[29.731639] (-) TimerEvent: {}
+[29.832784] (-) TimerEvent: {}
+[29.933851] (-) TimerEvent: {}
+[30.035058] (-) TimerEvent: {}
+[30.136227] (-) TimerEvent: {}
+[30.237378] (-) TimerEvent: {}
+[30.338591] (-) TimerEvent: {}
+[30.439749] (-) TimerEvent: {}
+[30.540977] (-) TimerEvent: {}
+[30.597398] (arm_state) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[30.641298] (-) TimerEvent: {}
+[30.742513] (-) TimerEvent: {}
+[30.843673] (-) TimerEvent: {}
+[30.944834] (-) TimerEvent: {}
+[31.046149] (-) TimerEvent: {}
+[31.101559] (arm_state) StdoutLine: {'line': b'[ 62%] Built target server\n'}
+[31.146454] (-) TimerEvent: {}
+[31.247832] (-) TimerEvent: {}
+[31.348997] (-) TimerEvent: {}
+[31.392762] (arm_state) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable ard_pubser\x1b[0m\n'}
+[31.449284] (-) TimerEvent: {}
+[31.454079] (arm_state) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable com\x1b[0m\n'}
+[31.549641] (-) TimerEvent: {}
+[31.650861] (-) TimerEvent: {}
+[31.752173] (-) TimerEvent: {}
+[31.853457] (-) TimerEvent: {}
+[31.954795] (-) TimerEvent: {}
+[32.056210] (-) TimerEvent: {}
+[32.092421] (arm_state) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable start\x1b[0m\n'}
+[32.156489] (-) TimerEvent: {}
+[32.257683] (-) TimerEvent: {}
+[32.358877] (-) TimerEvent: {}
+[32.460160] (-) TimerEvent: {}
+[32.491455] (arm_state) StdoutLine: {'line': b'[ 81%] Built target start\n'}
+[32.560523] (-) TimerEvent: {}
+[32.661606] (-) TimerEvent: {}
+[32.696530] (arm_state) StdoutLine: {'line': b'[ 81%] Built target ard_pubser\n'}
+[32.759030] (arm_state) StdoutLine: {'line': b'[ 81%] Built target com\n'}
+[32.761897] (-) TimerEvent: {}
+[32.863050] (-) TimerEvent: {}
+[32.964138] (-) TimerEvent: {}
+[33.065222] (-) TimerEvent: {}
+[33.166403] (-) TimerEvent: {}
+[33.267547] (-) TimerEvent: {}
+[33.320338] (arm_state) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable save\x1b[0m\n'}
+[33.367903] (-) TimerEvent: {}
+[33.469081] (-) TimerEvent: {}
+[33.570178] (-) TimerEvent: {}
+[33.624379] (arm_state) StdoutLine: {'line': b'[ 87%] Built target save\n'}
+[33.670563] (-) TimerEvent: {}
+[33.771695] (-) TimerEvent: {}
+[33.872848] (-) TimerEvent: {}
+[33.932124] (arm_state) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable stop\x1b[0m\n'}
+[33.973193] (-) TimerEvent: {}
+[34.074292] (-) TimerEvent: {}
+[34.175453] (-) TimerEvent: {}
+[34.259326] (arm_state) StdoutLine: {'line': b'[ 93%] Built target stop\n'}
+[34.275834] (-) TimerEvent: {}
+[34.376993] (-) TimerEvent: {}
+[34.478174] (-) TimerEvent: {}
+[34.579241] (-) TimerEvent: {}
+[34.680391] (-) TimerEvent: {}
+[34.781554] (-) TimerEvent: {}
+[34.882595] (-) TimerEvent: {}
+[34.983649] (-) TimerEvent: {}
+[35.084128] (-) TimerEvent: {}
+[35.184680] (-) TimerEvent: {}
+[35.285158] (-) TimerEvent: {}
+[35.385703] (-) TimerEvent: {}
+[35.486185] (-) TimerEvent: {}
+[35.586733] (-) TimerEvent: {}
+[35.687208] (-) TimerEvent: {}
+[35.787782] (-) TimerEvent: {}
+[35.888290] (-) TimerEvent: {}
+[35.988836] (-) TimerEvent: {}
+[36.089320] (-) TimerEvent: {}
+[36.189882] (-) TimerEvent: {}
+[36.290377] (-) TimerEvent: {}
+[36.390984] (-) TimerEvent: {}
+[36.491544] (-) TimerEvent: {}
+[36.592114] (-) TimerEvent: {}
+[36.693220] (arm_state) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable arduino\x1b[0m\n'}
+[36.694355] (-) TimerEvent: {}
+[36.795403] (-) TimerEvent: {}
+[36.896489] (-) TimerEvent: {}
+[36.997068] (-) TimerEvent: {}
+[37.097648] (-) TimerEvent: {}
+[37.198161] (-) TimerEvent: {}
+[37.233385] (arm_state) StdoutLine: {'line': b'[100%] Built target arduino\n'}
+[37.278002] (arm_state) CommandEnded: {'returncode': 0}
+[37.281224] (arm_state) JobProgress: {'identifier': 'arm_state', 'progress': 'install'}
+[37.284285] (arm_state) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/arm_ros2/build/arm_state'], 'cwd': '/home/user/arm_ros2/build/arm_state', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/터미네이터/2680-1-user-15ZD90RU-GX56K_TIME77879', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'user', 'LC_TIME': 'ko_KR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/usr/local/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '2308', 'SYSTEMD_EXEC_PID': '2680', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3890', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/user/arm_ros2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', 'JOURNAL_STREAM': '9:22013', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-15ZD90RU-GX56K:@/tmp/.ICE-unix/2642,unix/user-15ZD90RU-GX56K:/tmp/.ICE-unix/2642', 'INVOCATION_ID': '58dbff9ac66e497780ac8d6e8af023e6', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '13', 'AMENT_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:76b296e4-47fa-4909-9c0e-257afef4f9e3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/arm_ros2/build/arm_state', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/jazzy/lib', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/user/arm_ros2/install/robot_description:/home/user/arm_ros2/install/arm_state:/opt/ros/jazzy:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[37.298472] (-) TimerEvent: {}
+[37.306698] (arm_state) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.308011] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/com\n'}
+[37.310103] (arm_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/com" to ""\n'}
+[37.311181] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/arduino\n'}
+[37.318009] (arm_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/arduino" to ""\n'}
+[37.319087] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/client\n'}
+[37.320173] (arm_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/client" to ""\n'}
+[37.321222] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/server\n'}
+[37.322361] (arm_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/server" to ""\n'}
+[37.323331] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/ard_pubser\n'}
+[37.326007] (arm_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/ard_pubser" to ""\n'}
+[37.327087] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/save\n'}
+[37.328302] (arm_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/save" to ""\n'}
+[37.329059] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/start\n'}
+[37.330054] (arm_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/start" to ""\n'}
+[37.330748] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/stop\n'}
+[37.332268] (arm_state) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/stop" to ""\n'}
+[37.333609] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/ament_index/resource_index/package_run_dependencies/arm_state\n'}
+[37.334427] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/ament_index/resource_index/parent_prefix_path/arm_state\n'}
+[37.335667] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/ament_prefix_path.sh\n'}
+[37.336534] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/ament_prefix_path.dsv\n'}
+[37.336790] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/path.sh\n'}
+[37.336988] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/path.dsv\n'}
+[37.337131] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.bash\n'}
+[37.337321] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.sh\n'}
+[37.337474] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.zsh\n'}
+[37.337639] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.dsv\n'}
+[37.337809] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/package.dsv\n'}
+[37.337988] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/ament_index/resource_index/packages/arm_state\n'}
+[37.338153] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/cmake/arm_stateConfig.cmake\n'}
+[37.338303] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/cmake/arm_stateConfig-version.cmake\n'}
+[37.338447] (arm_state) StdoutLine: {'line': b'-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/package.xml\n'}
+[37.344463] (arm_state) CommandEnded: {'returncode': 0}
+[37.367085] (arm_state) JobEnded: {'identifier': 'arm_state', 'rc': 0}
+[37.370781] (-) EventReactorShutdown: {}

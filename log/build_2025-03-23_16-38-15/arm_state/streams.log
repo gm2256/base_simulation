@@ -1,0 +1,36 @@
+[0.036s] Invoking command in '/home/user/arm_ros2/build/arm_state': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/arm_ros2/build/arm_state -- -j12 -l12
+[0.318s] [ 12%] Built target client
+[0.328s] [ 25%] Built target arduino
+[0.336s] [ 37%] Built target stop
+[0.379s] [ 50%] Built target save
+[0.379s] [ 62%] Built target ard_pubser
+[0.380s] [ 75%] Built target server
+[0.381s] [ 87%] Built target start
+[0.399s] [100%] Built target com
+[0.519s] Invoked command in '/home/user/arm_ros2/build/arm_state' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/arm_ros2/build/arm_state -- -j12 -l12
+[0.529s] Invoking command in '/home/user/arm_ros2/build/arm_state': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/arm_ros2/build/arm_state
+[0.553s] -- Install configuration: ""
+[0.554s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/lib/arm_state/com
+[0.556s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/lib/arm_state/arduino
+[0.557s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/lib/arm_state/client
+[0.558s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/lib/arm_state/server
+[0.560s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/lib/arm_state/ard_pubser
+[0.563s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/lib/arm_state/save
+[0.565s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/lib/arm_state/start
+[0.566s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/lib/arm_state/stop
+[0.567s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/ament_index/resource_index/package_run_dependencies/arm_state
+[0.568s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/ament_index/resource_index/parent_prefix_path/arm_state
+[0.568s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/ament_prefix_path.sh
+[0.569s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/ament_prefix_path.dsv
+[0.570s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/path.sh
+[0.570s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/path.dsv
+[0.572s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.bash
+[0.575s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.sh
+[0.580s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.zsh
+[0.581s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.dsv
+[0.582s] -- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/package.dsv
+[0.583s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/ament_index/resource_index/packages/arm_state
+[0.585s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/cmake/arm_stateConfig.cmake
+[0.586s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/cmake/arm_stateConfig-version.cmake
+[0.587s] -- Up-to-date: /home/user/arm_ros2/install/arm_state/share/arm_state/package.xml
+[0.589s] Invoked command in '/home/user/arm_ros2/build/arm_state' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/arm_ros2/build/arm_state
