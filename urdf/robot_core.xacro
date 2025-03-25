@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<robot name="robot" xmlns:xacro="http://ros.org/wiki/xacro">
+    <material name="black">
+        <color rgba="0.2 0.2 0.2 1"/>
+    </material>
+    <material name="grey">
+        <color rgba="0.75 0.75 0.75 1"/>
+    </material> 
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.13 0.1 0.052"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="grey"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.13 0.1 0.052"/>
+            </geometry>
+            <origin xyz="0 0 0.013" rpy="0 0 0"/>
+        </collision>
+        <inertial>
+            <mass value="0.25" />
+            <origin xyz="0 0 0.013" rpy="0 0 0"/>
+            <inertia ixx="0.000335083333333" ixy="0.0" ixz="0.0"
+                    iyy="0.000478833333333" iyz="0.0" 
+                    izz="0.000560416666667" />
+        </inertial> 
+    </link>
+
+    <!-- Add base_footprint link -->
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <box size="0.13 0.1 0.0001"/> <!-- Flat representation -->
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="grey"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.13 0.1 0.0001"/> <!-- Flat representation -->
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </collision>
+        <inertial>
+            <mass value="0.0" /> <!-- No mass for footprint -->
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
+    </link>
+
+    <!-- Add fixed joint between base_link and base_footprint -->
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="base_footprint"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/> <!-- Position is the same as base_link -->
+    </joint>
+
+    <!-- Other existing links and joints -->
+    <joint name="caster_support_joint" type="continuous">
+        <axis xyz="0 0 1"/>
+        <parent link="base_link"/>
+        <child link="caster_support"/>
+        <origin xyz="-0.065 0 -0.01" rpy="0 0 0"/>
+    </joint>
+    <link name="caster_support">
+        <visual>
+            <geometry>
+                <box size="0.02 0.02 0.04"/>
+            </geometry>
+            <origin xyz="-0.01 0 0" rpy="0 0 0"/>
+            <material name="grey"/>
+        </visual>
+        <collision>    
+            <geometry>
+                <box size="0.02 0.02 0.04"/>
+            </geometry>
+            <origin xyz="-0.01 0 0" rpy="0 0 0"/>
+        </collision>
+        <inertial>
+            <mass value="0.25" />
+            <origin xyz="-0.01 0 0" rpy="0 0 0"/>
+            <inertia ixx="1.66666666666667e-5" ixy="0.0" ixz="0.0"
+                    iyy="2.66666666666667e-5" iyz="0.0" 
+                    izz="1.66666666666667e-5" />
+        </inertial>
+    </link>
+    <link name="caster_wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.005" radius="0.02"/>
+            </geometry>
+            <origin rpy="-1.5708 0 0"/>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.005" radius="0.02"/>
+            </geometry>
+            <origin rpy="-1.5708 0 0"/>
+        </collision>
+        <inertial>
+            <mass value="0.1" />
+            <origin rpy="-1.5708 0 0"/>
+            <inertia ixx="1.02083333333333e-5" ixy="0.0" ixz="0.0"
+                    iyy="1.02083333333333e-5" iyz="0.0" 
+                    izz="2e-5" />
+        </inertial> 
+    </link>
+    <joint name="caster_wheel_joint" type="continuous">
+        <axis xyz="0 1 0"/>
+        <parent link="caster_support"/>
+        <child link="caster_wheel"/>
+        <origin xyz="-0.02 0 -0.02" rpy="0 0 0" />
+        <dynamics damping="0.3" friction="0.0"/> 
+    </joint>
+    
+    <link name="right_wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.008" radius="0.024"/>
+            </geometry>
+            <material name="black"/>
+            <origin rpy="-1.5708 0 0"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.008" radius="0.024"/>
+            </geometry>
+            <origin rpy="-1.5708 0 0"/>
+        </collision>
+        <inertial>
+            <mass value="0.1" />
+            <origin rpy="-1.5708 0 0"/>
+            <inertia ixx="1.49333333333333e-5" ixy="0.0" ixz="0.0"
+                    iyy="1.49333333333333e-5" iyz="0.0" 
+                    izz="2.88e-5" />
+        </inertial> 
+    </link>
+    <joint name="right_wheel_joint" type="continuous">
+        <axis xyz="0 1 0"/>
+        <parent link="base_link"/>
+        <child link="right_wheel"/>
+        <origin xyz="0 0.054 -0.021"/>
+        <dynamics damping="0.1" friction="0.0"/>
+    </joint>
+    <link name="left_wheel">
+        <visual>
+            <geometry>
+                <cylinder length="0.008" radius="0.024"/>
+            </geometry>
+            <material name="black"/>
+            <origin rpy="-1.5708 0 0"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.008" radius="0.024"/>
+            </geometry>
+            <origin rpy="-1.5708 0 0"/>
+        </collision>
+        <inertial>
+            <mass value="0.1" />
+            <origin rpy="-1.5708 0 0"/>
+            <inertia ixx="1.49333333333333e-5" ixy="0.0" ixz="0.0"
+                    iyy="1.49333333333333e-5" iyz="0.0" 
+                    izz="2.88e-5" />
+        </inertial>         
+  </link>
+  <joint name="left_wheel_joint" type="continuous">
+        <axis xyz="0 1 0"/>
+        <parent link="base_link"/>
+        <child link="left_wheel"/>
+        <origin xyz="0 -0.054 -0.021"/>
+        <dynamics damping="0.1" friction="0.0"/>
+  </joint>
+</robot>
