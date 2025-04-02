@@ -1,4 +1,4 @@
-#**simple setting** - there are not nav and amcl 
+# **simple setting** - there are not nav and amcl 
 
 ## **version**
 gazebo_sim_harmonic, ros2 jazzy , ubuntu 24.04
@@ -7,10 +7,10 @@ gazebo_sim_harmonic, ros2 jazzy , ubuntu 24.04
 robot -- camera,lidar, casterwheel, 2 wheel 
 
 
-### **if you want to start this file ...**
+##  **start**
 ros2 launch robot_description launch_sim.launch.py
 
-### **if you want to mapping map ...**
+##  **mapping**
 ros2 launch robot_description map_building.launch.py
 
 
