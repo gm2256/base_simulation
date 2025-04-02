@@ -4,8 +4,13 @@
 gazebo_sim_harmonic, ros2 jazzy , ubuntu 24.04
 
 ## **urdf**
-robot -- camera,lidar, casterwheel, 2 wheel 
-
+robot -- camera , lidar, casterwheel, 2 wheel 
+## **ready
+1) make a forder
+  cd ~/arm_ros/src
+3) make python package named robot_description 
+ros2 pkg create robot_description --build-type ament_python --dependencies rclpy std_msgs
+4) git clone file
 
 ##  **start**
 ros2 launch robot_description launch_sim.launch.py
