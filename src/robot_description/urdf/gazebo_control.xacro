@@ -10,7 +10,7 @@
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint> 
       
-      <wheel_separation>3.14</wheel_separation>
+      <wheel_separation>0.108</wheel_separation>
       <wheel_diameter>0.048</wheel_diameter> 
       
       <!-- Limit -->
@@ -23,7 +23,7 @@
       <odom_topic>odom</odom_topic>
       <frame_id>odom</frame_id>
       <child_frame_id>base_link</child_frame_id>
-      <odom_publisher_frequency>100</odom_publisher_frequency>
+      <odom_publisher_frequency>30</odom_publisher_frequency>
       
       <tf_topic>/tf</tf_topic>
     </plugin>

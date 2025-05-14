@@ -1,0 +1,94 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/user/arm_ros2/build/arm_state
+[  6%] [32mBuilding CXX object CMakeFiles/server.dir/src/robot_move_server.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/com.dir/src/robot_state_pub.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/arduino.dir/src/robot_state_sub.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/robot_move_client.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/stop.dir/src/robot_state_stop.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/start.dir/src/robot_state_start_client.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ard_pubser.dir/src/robot_all.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/save.dir/src/robot_state_save_client.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable start[0m
+[ 56%] Built target start
+[ 62%] [32m[1mLinking CXX executable stop[0m
+[ 62%] Built target stop
+[ 68%] [32m[1mLinking CXX executable client[0m
+[ 75%] [32m[1mLinking CXX executable save[0m
+[ 75%] Built target client
+[ 75%] Built target save
+[ 81%] [32m[1mLinking CXX executable server[0m
+[ 81%] Built target server
+[ 87%] [32m[1mLinking CXX executable arduino[0m
+[ 87%] Built target arduino
+[ 93%] [32m[1mLinking CXX executable com[0m
+[ 93%] Built target com
+[100%] [32m[1mLinking CXX executable ard_pubser[0m
+[100%] Built target ard_pubser
+-- Install configuration: ""
+-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/com
+-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/com" to ""
+-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/arduino
+-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/arduino" to ""
+-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/client
+-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/client" to ""
+-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/server
+-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/server" to ""
+-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/ard_pubser
+-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/ard_pubser" to ""
+-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/save
+-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/save" to ""
+-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/start
+-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/start" to ""
+-- Installing: /home/user/arm_ros2/install/arm_state/lib/arm_state/stop
+-- Set non-toolchain portion of runtime path of "/home/user/arm_ros2/install/arm_state/lib/arm_state/stop" to ""
+-- Installing: /home/user/arm_ros2/install/arm_state/share/ament_index/resource_index/package_run_dependencies/arm_state
+-- Installing: /home/user/arm_ros2/install/arm_state/share/ament_index/resource_index/parent_prefix_path/arm_state
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/ament_prefix_path.sh
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/ament_prefix_path.dsv
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/path.sh
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/environment/path.dsv
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.bash
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.sh
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.zsh
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/local_setup.dsv
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/package.dsv
+-- Installing: /home/user/arm_ros2/install/arm_state/share/ament_index/resource_index/packages/arm_state
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/cmake/arm_stateConfig.cmake
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/cmake/arm_stateConfig-version.cmake
+-- Installing: /home/user/arm_ros2/install/arm_state/share/arm_state/package.xml

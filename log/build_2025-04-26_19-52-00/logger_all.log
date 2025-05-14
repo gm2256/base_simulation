@@ -1,0 +1,268 @@
+[0.270s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.270s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7246f18a1fd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7246f18a1e80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7246f18a1e80>>, mixin_verb=('build',))
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.361s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/arm_ros2'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_state) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_state) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_state) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_state) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_state) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_state) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_state) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_state) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_state) by extension 'ros'
+[0.477s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_state' with type 'ros.ament_cmake' and name 'arm_state'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/localizer_server) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/localizer_server) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/localizer_server) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/localizer_server) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/localizer_server) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/localizer_server) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/localizer_server) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/localizer_server) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/localizer_server) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localizer_server' with type 'ros.ament_cmake' and name 'localizer_server'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.548s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/user/arm_ros2/install
+[0.549s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/user/turtlebot3_ws/install
+[0.553s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 459 installed packages in /opt/ros/jazzy
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'arm_state' build argument 'cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'arm_state' build argument 'cmake_target' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'arm_state' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'arm_state' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'arm_state' build argument 'cmake_clean_first' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'arm_state' build argument 'cmake_force_configure' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'arm_state' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'arm_state' build argument 'catkin_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'arm_state' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.658s] DEBUG:colcon.colcon_core.verb:Building package 'arm_state' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/arm_ros2/build/arm_state', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/arm_ros2/install/arm_state', 'merge_install': False, 'path': '/home/user/arm_ros2/src/arm_state', 'symlink_install': False, 'test_result_base': None}
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'localizer_server' build argument 'cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'localizer_server' build argument 'cmake_target' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'localizer_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'localizer_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'localizer_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'localizer_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'localizer_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'localizer_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'localizer_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] DEBUG:colcon.colcon_core.verb:Building package 'localizer_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/arm_ros2/build/localizer_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/arm_ros2/install/localizer_server', 'merge_install': False, 'path': '/home/user/arm_ros2/src/localizer_server', 'symlink_install': False, 'test_result_base': None}
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/arm_ros2/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/arm_ros2/install/robot_description', 'merge_install': False, 'path': '/home/user/arm_ros2/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.660s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.663s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.665s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/arm_ros2/src/arm_state' with build type 'ament_cmake'
+[0.666s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/arm_ros2/src/arm_state'
+[0.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.675s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.675s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.685s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/arm_ros2/src/localizer_server' with build type 'ament_cmake'
+[0.685s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/arm_ros2/src/localizer_server'
+[0.685s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.696s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/arm_ros2/src/robot_description' with build type 'ament_cmake'
+[0.696s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/arm_ros2/src/robot_description'
+[0.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/arm_ros2/build/arm_state': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/arm_ros2/build/arm_state -- -j12 -l12
+[0.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/arm_ros2/build/localizer_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/arm_ros2/build/localizer_server -- -j12 -l12
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/arm_ros2/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/arm_ros2/build/robot_description -- -j12 -l12
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/arm_ros2/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/arm_ros2/build/robot_description -- -j12 -l12
+[1.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/arm_ros2/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/arm_ros2/build/robot_description
+[1.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/arm_ros2/build/localizer_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/arm_ros2/build/localizer_server -- -j12 -l12
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/arm_ros2/build/localizer_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/arm_ros2/build/localizer_server
+[1.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/arm_ros2/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/arm_ros2/build/robot_description
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description' for CMake module files
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description' for CMake config files
+[1.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/arm_ros2/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description/bin'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description/lib/python3.12/site-packages'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description/bin'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/robot_description/share/robot_description/package.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/arm_ros2/install/robot_description/share/robot_description/package.dsv'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/robot_description/share/robot_description/package.sh'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/robot_description/share/robot_description/package.bash'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/robot_description/share/robot_description/package.zsh'
+[1.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/arm_ros2/install/robot_description/share/colcon-core/packages/robot_description)
+[1.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description' for CMake module files
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description' for CMake config files
+[1.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/arm_ros2/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description/bin'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description/lib/python3.12/site-packages'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/robot_description/bin'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/robot_description/share/robot_description/package.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/arm_ros2/install/robot_description/share/robot_description/package.dsv'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/robot_description/share/robot_description/package.sh'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/robot_description/share/robot_description/package.bash'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/robot_description/share/robot_description/package.zsh'
+[1.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/arm_ros2/install/robot_description/share/colcon-core/packages/robot_description)
+[1.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localizer_server)
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server' for CMake module files
+[1.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/arm_ros2/build/localizer_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/arm_ros2/build/localizer_server
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server' for CMake config files
+[1.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('localizer_server', 'cmake_prefix_path')
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/localizer_server/share/localizer_server/hook/cmake_prefix_path.ps1'
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/arm_ros2/install/localizer_server/share/localizer_server/hook/cmake_prefix_path.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/localizer_server/share/localizer_server/hook/cmake_prefix_path.sh'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server/lib'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server/bin'
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server/lib/pkgconfig/localizer_server.pc'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server/lib/python3.12/site-packages'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server/bin'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.ps1'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.dsv'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.sh'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.bash'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.zsh'
+[1.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/arm_ros2/install/localizer_server/share/colcon-core/packages/localizer_server)
+[1.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localizer_server)
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server' for CMake module files
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server' for CMake config files
+[1.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('localizer_server', 'cmake_prefix_path')
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/localizer_server/share/localizer_server/hook/cmake_prefix_path.ps1'
+[1.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/arm_ros2/install/localizer_server/share/localizer_server/hook/cmake_prefix_path.dsv'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/localizer_server/share/localizer_server/hook/cmake_prefix_path.sh'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server/lib'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server/bin'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server/lib/pkgconfig/localizer_server.pc'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server/lib/python3.12/site-packages'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/localizer_server/bin'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.dsv'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.bash'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.zsh'
+[1.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/arm_ros2/install/localizer_server/share/colcon-core/packages/localizer_server)
+[1.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/arm_ros2/build/arm_state' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/arm_ros2/build/arm_state -- -j12 -l12
+[1.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/arm_ros2/build/arm_state': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/arm_ros2/build/arm_state
+[1.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_state)
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state' for CMake module files
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/arm_ros2/build/arm_state' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/arm_ros2/build/arm_state
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state' for CMake config files
+[1.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_state', 'cmake_prefix_path')
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/arm_state/share/arm_state/hook/cmake_prefix_path.ps1'
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/arm_ros2/install/arm_state/share/arm_state/hook/cmake_prefix_path.dsv'
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/arm_state/share/arm_state/hook/cmake_prefix_path.sh'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state/lib'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state/bin'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state/lib/pkgconfig/arm_state.pc'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state/lib/python3.12/site-packages'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state/bin'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/arm_state/share/arm_state/package.ps1'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/arm_ros2/install/arm_state/share/arm_state/package.dsv'
+[1.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/arm_state/share/arm_state/package.sh'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/arm_state/share/arm_state/package.bash'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/arm_state/share/arm_state/package.zsh'
+[1.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/arm_ros2/install/arm_state/share/colcon-core/packages/arm_state)
+[1.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_state)
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state' for CMake module files
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state' for CMake config files
+[1.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_state', 'cmake_prefix_path')
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/arm_state/share/arm_state/hook/cmake_prefix_path.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/arm_ros2/install/arm_state/share/arm_state/hook/cmake_prefix_path.dsv'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/arm_ros2/install/arm_state/share/arm_state/hook/cmake_prefix_path.sh'
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state/lib'
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state/bin'
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state/lib/pkgconfig/arm_state.pc'
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state/lib/python3.12/site-packages'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/user/arm_ros2/install/arm_state/bin'
+[1.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/arm_state/share/arm_state/package.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/arm_ros2/install/arm_state/share/arm_state/package.dsv'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/arm_state/share/arm_state/package.sh'
+[1.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/arm_state/share/arm_state/package.bash'
+[1.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/arm_ros2/install/arm_state/share/arm_state/package.zsh'
+[1.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/arm_ros2/install/arm_state/share/colcon-core/packages/arm_state)
+[1.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.312s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.333s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.381s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.382s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/arm_ros2/install/local_setup.ps1'
+[1.389s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/arm_ros2/install/_local_setup_util_ps1.py'
+[1.397s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/arm_ros2/install/setup.ps1'
+[1.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/arm_ros2/install/local_setup.sh'
+[1.400s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/arm_ros2/install/_local_setup_util_sh.py'
+[1.401s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/arm_ros2/install/setup.sh'
+[1.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/arm_ros2/install/local_setup.bash'
+[1.405s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/arm_ros2/install/setup.bash'
+[1.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/arm_ros2/install/local_setup.zsh'
+[1.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/arm_ros2/install/setup.zsh'

@@ -1,0 +1,42 @@
+[0.070s] Invoking command in '/home/user/arm_ros2/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/arm_ros2/build/robot_description -- -j12 -l12
+[0.282s] Invoked command in '/home/user/arm_ros2/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/arm_ros2/build/robot_description -- -j12 -l12
+[0.316s] Invoking command in '/home/user/arm_ros2/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/arm_ros2/build/robot_description
+[0.344s] -- Install configuration: ""
+[0.345s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf
+[0.345s] -- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/robot_core.xacro
+[0.345s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/camera.xacro
+[0.346s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
+[0.346s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/gazebo_control.xacro
+[0.346s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/urdf/lidar.xacro
+[0.346s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/rviz
+[0.346s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/rviz/urdf_config.rviz
+[0.347s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/launch
+[0.348s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/localization.launch.py
+[0.348s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/launch_sim.launch.py
+[0.352s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/upload.launch.py
+[0.353s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/map_building.launch.py
+[0.353s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/nav2_bringup.launch.py
+[0.353s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/nav2_with_slam.launch.py
+[0.353s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/launch/display.launch.py
+[0.354s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/config
+[0.354s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/config/amcl.yaml
+[0.354s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/config/navigation.yaml
+[0.354s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/config/gz_bridge.yaml
+[0.354s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/config/waypoint.yaml
+[0.355s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/config/mapper_params.yaml
+[0.355s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.355s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.355s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.356s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.356s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/environment/path.sh
+[0.360s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/environment/path.dsv
+[0.364s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/local_setup.bash
+[0.365s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/local_setup.sh
+[0.365s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/local_setup.zsh
+[0.366s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/local_setup.dsv
+[0.370s] -- Installing: /home/user/arm_ros2/install/robot_description/share/robot_description/package.dsv
+[0.371s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.371s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.372s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.373s] -- Up-to-date: /home/user/arm_ros2/install/robot_description/share/robot_description/package.xml
+[0.379s] Invoked command in '/home/user/arm_ros2/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/turtlebot3_ws/install/turtlebot3_teleop:/home/user/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/arm_ros2/build/robot_description

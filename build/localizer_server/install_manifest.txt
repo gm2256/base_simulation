@@ -1,0 +1,17 @@
+/home/user/arm_ros2/install/localizer_server/lib/localizer_server/init_pose_pub
+/home/user/arm_ros2/install/localizer_server/lib/localizer_server/global_localization
+/home/user/arm_ros2/install/localizer_server/share/ament_index/resource_index/package_run_dependencies/localizer_server
+/home/user/arm_ros2/install/localizer_server/share/ament_index/resource_index/parent_prefix_path/localizer_server
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/environment/ament_prefix_path.sh
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/environment/ament_prefix_path.dsv
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/environment/path.sh
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/environment/path.dsv
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/local_setup.bash
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/local_setup.sh
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/local_setup.zsh
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/local_setup.dsv
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.dsv
+/home/user/arm_ros2/install/localizer_server/share/ament_index/resource_index/packages/localizer_server
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/cmake/localizer_serverConfig.cmake
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/cmake/localizer_serverConfig-version.cmake
+/home/user/arm_ros2/install/localizer_server/share/localizer_server/package.xml

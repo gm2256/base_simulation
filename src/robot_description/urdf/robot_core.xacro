@@ -63,25 +63,25 @@
         <axis xyz="0 0 1"/>
         <parent link="base_link"/>
         <child link="caster_support"/>
-        <origin xyz="-0.065 0 -0.01" rpy="0 0 0"/>
+        <origin xyz="-0.085 0 -0.01" rpy="0 0 0"/>
     </joint>
     <link name="caster_support">
         <visual>
             <geometry>
                 <box size="0.02 0.02 0.04"/>
             </geometry>
-            <origin xyz="-0.01 0 0" rpy="0 0 0"/>
+            <origin xyz="0.01 0 0" rpy="0 0 0"/>
             <material name="grey"/>
         </visual>
         <collision>    
             <geometry>
                 <box size="0.02 0.02 0.04"/>
             </geometry>
-            <origin xyz="-0.01 0 0" rpy="0 0 0"/>
+            <origin xyz="0.01 0 0" rpy="0 0 0"/>
         </collision>
         <inertial>
             <mass value="0.25" />
-            <origin xyz="-0.01 0 0" rpy="0 0 0"/>
+            <origin xyz="0.01 0 0" rpy="0 0 0"/>
             <inertia ixx="1.66666666666667e-5" ixy="0.0" ixz="0.0"
                     iyy="2.66666666666667e-5" iyz="0.0" 
                     izz="1.66666666666667e-5" />
@@ -90,30 +90,31 @@
     <link name="caster_wheel">
         <visual>
             <geometry>
-                <cylinder length="0.005" radius="0.02"/>
+                <cylinder length="0.005" radius="0.01"/>
             </geometry>
             <origin rpy="-1.5708 0 0"/>
             <material name="black"/>
         </visual>
         <collision>
             <geometry>
-                <cylinder length="0.005" radius="0.02"/>
+                <cylinder length="0.005" radius="0.01"/>
             </geometry>
             <origin rpy="-1.5708 0 0"/>
         </collision>
         <inertial>
-            <mass value="0.1" />
+            <mass value="0.01" />
             <origin rpy="-1.5708 0 0"/>
-            <inertia ixx="1.02083333333333e-5" ixy="0.0" ixz="0.0"
-                    iyy="1.02083333333333e-5" iyz="0.0" 
-                    izz="2e-5" />
+              <inertia 
+                   ixx="0.0000005" ixy="0.0" ixz="0.0"
+                   iyy="0.000000270833" iyz="0.0"
+                   izz="0.000000270833"/>
         </inertial> 
     </link>
     <joint name="caster_wheel_joint" type="continuous">
         <axis xyz="0 1 0"/>
         <parent link="caster_support"/>
         <child link="caster_wheel"/>
-        <origin xyz="-0.02 0 -0.02" rpy="0 0 0" />
+        <origin xyz="-0.006 0 -0.02" rpy="0 0 0" />
         <dynamics damping="0.3" friction="0.0"/> 
     </joint>
     
@@ -143,7 +144,7 @@
         <axis xyz="0 1 0"/>
         <parent link="base_link"/>
         <child link="right_wheel"/>
-        <origin xyz="0 0.054 -0.021"/>
+        <origin xyz="0.03 -0.054 -0.021"/>
         <dynamics damping="0.1" friction="0.0"/>
     </joint>
     <link name="left_wheel">
@@ -172,7 +173,7 @@
         <axis xyz="0 1 0"/>
         <parent link="base_link"/>
         <child link="left_wheel"/>
-        <origin xyz="0 -0.054 -0.021"/>
+        <origin xyz="0.03 0.054 -0.021"/>
         <dynamics damping="0.1" friction="0.0"/>
   </joint>
 </robot>
